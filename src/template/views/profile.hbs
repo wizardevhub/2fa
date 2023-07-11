@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="author" content="Hariom Kumar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1> Hi {{user.name}}</h1>
+    <h5> Email - {{user.email}}</h5>
+    <img src="{{user.picture}}">
+    {{!-- <a href="/logout">Sign-out</a> --}}
+    <a href="/logout" class="logoutBtn" style="vertical-align:middle"><span>Logout </span></a>
+</body>
+
+</html>
